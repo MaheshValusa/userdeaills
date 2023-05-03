@@ -1,0 +1,146 @@
+.user-list {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.user-id {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.user-heading {
+  font-size: 30px;
+  color: #0c0988;
+}
+
+.popup-container {
+    position: relative;
+  }
+  
+  .popup {
+    display: none;
+    position: absolute;
+    top: 10px;
+    width: 20vw;
+    height: 10vh;
+    left: 120%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  }
+  
+  .popup-container:hover .popup {
+    display: block;
+  }
+  
+.span{
+    margin-right: 30px;
+}
+/* PROFILE */
+.background-profile {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 30vh;
+  border-radius: 5px;
+  margin: 25px 40px 30px 40px;
+}
+.profile-details {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.profile-name {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.timeline-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* USERTIMELINE */
+.timeline-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px 0px 10px;
+  padding: 15px;
+}
+.timeline-background {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 65vh;
+  border-radius: 5px;
+  width: 40vw;
+  margin-left: 90px;
+}
+.timline-details {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.timeline-name {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.paragraph {
+  margin: 5px 10px 0px 10px;
+ 
+}
+.like-comment {
+  float: left;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.like {
+  margin-right: 35px;
+}
+.count{
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.search-input {
+  margin-right: 10px;
+}
+.react-icons {
+  margin-left: 190px;
+  margin-top: 15px;
+}
+.adjust-size {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 40vh;
+  width: 40vw;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+.text-area{
+    border-radius: 5px;
+    padding: 15px;
+    width: 30vw;
+    margin-left: 30px;
+}
+
+.input{
+    margin-top: 80px;
+    border-radius: 50;
+    margin-left: 30px;
+}
+/* GALLERY */
+
+.gallery-background {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 65vh;
+  border-radius: 5px;
+  width: 40vw;
+  margin-left: 20px;
+}
+.gallery {
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+}
+.album {
+  margin-top: 20px;
+  margin-right: 20px;
+}
